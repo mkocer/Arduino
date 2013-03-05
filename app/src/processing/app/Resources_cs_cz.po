@@ -1539,7 +1539,7 @@ msgstr "Uploaduji..."
 #: Sketch.java:1649
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Binární velikost skici: {0} bytů (z maxima: {1} bytů)"
+msgstr "Binární velikost skici: {0} bytes (z maxima: {1} bytes)"
 
 #: Sketch.java:1654
 msgid "Couldn't determine program size: {0}"
