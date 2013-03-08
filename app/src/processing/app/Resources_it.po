@@ -1104,9 +1104,22 @@ msgstr ""
 msgid "Portuguese"
 msgstr ""
 
+<<<<<<< HEAD
 #: Preferences.java:113
 msgid "Romanian"
 msgstr "Rumeno"
+=======
+#: debug/Compiler.java:490
+msgid ""
+"\n"
+"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
+"EthernetClient.\n"
+"\n"
+msgstr ""
+"\n"
+"Da Arduino 1.0, la classe Udp nella libreria Ethernet è stata rinominata EthernetClient.\n"
+"\n"
+>>>>>>> upstream/master
 
 #: Preferences.java:114
 msgid "Russian"
