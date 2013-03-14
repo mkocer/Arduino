@@ -17,19 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Base.java:184
+#: Base.java:181
 msgid "Non-fatal error while setting the Look & Feel."
 msgstr "GUI 동작을 설정할때 에러가 발생을 했지만 치명적이지는 않습니다."
 
-#: Base.java:185
+#: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
 msgstr "에러 메시지는 다음에 표시됩니다. 하지만 아두이노는 이상 없이 동작합니다."
 
-#: Base.java:220
+#: Base.java:217
 msgid "Problem Setting the Platform"
 msgstr "플랫폼 설정 문제"
 
-#: Base.java:221
+#: Base.java:218
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
@@ -37,11 +37,11 @@ msgstr ""
 "플랫폼에 특정한 코드를 로드하는 동안\n"
 "알수 없는 에러가 발생했습니니다."
 
-#: Base.java:232
+#: Base.java:229
 msgid "Please install JDK 1.5 or later"
 msgstr "JDK 1.5 이상을 설치하시기 바랍니다."
 
-#: Base.java:233
+#: Base.java:230
 msgid ""
 "Arduino requires a full JDK (not just a JRE)\n"
 "to run. Please install JDK 1.5 or later.\n"
@@ -51,11 +51,11 @@ msgstr ""
 "JDK 1.5이상을 설치하시기 바랍니다.\n"
 "자세한 내용은 레퍼런스에서 찾을 수 있습니니다."
 
-#: Base.java:257
+#: Base.java:254
 msgid "Sketchbook folder disappeared"
 msgstr "스케치북 폴더가 사라졌습니니다."
 
-#: Base.java:258
+#: Base.java:255
 msgid ""
 "The sketchbook folder no longer exists.\n"
 "Arduino will switch to the default sketchbook\n"
@@ -68,11 +68,11 @@ msgstr ""
 "필요한면 새로운 스케치북 폴더를 만드세요\n"
 "그러면 아두이노는 더 이상 얘기하지 않을겁니다.\n"
 
-#: Base.java:532
+#: Base.java:529
 msgid "Time for a Break"
 msgstr "휴식 시간"
 
-#: Base.java:533
+#: Base.java:530
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
@@ -80,19 +80,19 @@ msgstr ""
 "새로운 스케치의 자동 네이밍의 한계에 도달했습니다.\n"
 "산책을 하시는 것이 어떤가요?"
 
-#: Base.java:537
+#: Base.java:534
 msgid "Sunshine"
 msgstr "햇살"
 
-#: Base.java:538
+#: Base.java:535
 msgid "No really, time for some fresh air for you."
 msgstr "당신의 신선한 공기를 위한 시간입니다."
 
-#: Base.java:633
+#: Base.java:630
 msgid "Open an Arduino sketch..."
 msgstr "아두이노 스케치를 여세요..."
 
-#: Base.java:772
+#: Base.java:769
 msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
@@ -102,23 +102,23 @@ msgstr ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>정말로"
 "종료하기를 원하나요?</b><p>마지막에 연 스케치를 닫으면 아두이노를 종료합니니다."
 
-#: Base.java:782 Editor.java:586
+#: Base.java:779 Editor.java:586
 msgid "Quit"
 msgstr "종료"
 
-#: Base.java:903 Editor.java:494
+#: Base.java:900 Editor.java:494
 msgid "Open..."
 msgstr "열기..."
 
-#: Base.java:970
+#: Base.java:967
 msgid "Contributed"
 msgstr "기여"
 
-#: Base.java:1095
+#: Base.java:1092
 msgid "Sketch Does Not Exist"
 msgstr "스케치가 존재하지 않습니다"
 
-#: Base.java:1096
+#: Base.java:1093
 msgid ""
 "The selected sketch no longer exists.\n"
 "You may need to restart Arduino to update\n"
@@ -128,7 +128,7 @@ msgstr ""
 "스케체북 메뉴를 업데이트하기 위해 아두이노를\n"
 "다시 시작해야 할 수도 있습니다."
 
-#: Base.java:1125
+#: Base.java:1122
 #, java-format
 msgid ""
 "The sketch \"{0}\" cannot be used.\n"
@@ -142,11 +142,18 @@ msgstr ""
 "(숫자로 시작할 수 없으며 스페이스 없는 아스키문자를 사용하세요).\n"
 "이 메시지를 제거하려면 {1}에서 스케치를 제거하세요\n"
 
-#: Base.java:1132
+#: Base.java:1129
 msgid "Ignoring sketch with bad name"
 msgstr "잘못된 이름의 스케치를 무시"
 
-#: Base.java:1202
+#: Base.java:1187 Base.java:1232 Base.java:1879 Editor.java:2154
+#: Editor.java:2165 Editor.java:2175 Editor.java:2193 Preferences.java:239
+#: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
+#: Sketch.java:530 Sketch.java:547
+msgid "Error"
+msgstr "에러"
+
+#: Base.java:1204
 #, java-format
 msgid ""
 "The library \"{0}\" cannot be used.\n"
@@ -157,23 +164,23 @@ msgstr ""
 "라이브러리 이름은 기본 문자와 숫자를 포함해야 합니다\n"
 "(숫자로 시작할 수 없으며 스페이스 없는 아스키문자를 사용하세요).\n"
 
-#: Base.java:1207
+#: Base.java:1209
 msgid "Ignoring bad library name"
 msgstr "잘못된 라이브러리 이름을 무시"
 
-#: Base.java:1432
+#: Base.java:1438
 msgid "Problem getting data folder"
 msgstr "데이터 폴더를 가져오는데 문제 발생"
 
-#: Base.java:1433
+#: Base.java:1439
 msgid "Error getting the Arduino data folder."
 msgstr "아두이노 데이터 폴더를 가져올 때 에러 발생"
 
-#: Base.java:1440
+#: Base.java:1446
 msgid "Settings issues"
 msgstr "설정 문제"
 
-#: Base.java:1441
+#: Base.java:1447
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
@@ -181,17 +188,17 @@ msgstr ""
 "설정을 저장하기 위한 폴더를 생성하지 못해서\n"
 "아두이노를 실행할 수 없습니다."
 
-#: Base.java:1577
+#: Base.java:1583
 msgid ""
 "For information on installing libraries, see: http://arduino.cc/en/Guide/"
 "Libraries\n"
 msgstr ""
 
-#: Base.java:1614
+#: Base.java:1620
 msgid "You forgot your sketchbook"
 msgstr "스케치북을 잊었습니다"
 
-#: Base.java:1615
+#: Base.java:1621
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
@@ -199,15 +206,15 @@ msgstr ""
 "스케치를  저장하기 위한 폴더를 생성하지 못해서\n"
 "아두이노를 실행할 수 없습니다."
 
-#: Base.java:1635
+#: Base.java:1641
 msgid "Select (or create new) folder for sketches..."
 msgstr "스케치를 위한 폴더를 선택(또는 새로 만들기)..."
 
-#: Base.java:1659
+#: Base.java:1665
 msgid "Problem Opening URL"
 msgstr "URL을 열때 문제 발생"
 
-#: Base.java:1660
+#: Base.java:1666
 #, java-format
 msgid ""
 "Could not open the URL\n"
@@ -216,11 +223,11 @@ msgstr ""
 "URL {0}를\n"
 "열 수 없습니다.\n"
 
-#: Base.java:1683
+#: Base.java:1689
 msgid "Problem Opening Folder"
 msgstr "폴더를 열때 문제 발생"
 
-#: Base.java:1684
+#: Base.java:1690
 #, java-format
 msgid ""
 "Could not open the folder\n"
@@ -229,67 +236,61 @@ msgstr ""
 "폴더 {0}를\n"
 "열 수 없습니다.\n"
 
-#: Base.java:1797
+#: Base.java:1803
 msgid "Guide_MacOSX.html"
 msgstr "Guide_MacOSX.html"
 
-#: Base.java:1799
+#: Base.java:1805
 msgid "Guide_Windows.html"
 msgstr "Guide_Windows.html"
 
-#: Base.java:1801
+#: Base.java:1807
 msgid "http://www.arduino.cc/playground/Learning/Linux"
 msgstr "http://www.arduino.cc/playground/Learning/Linux"
 
-#: Base.java:1806
+#: Base.java:1812
 msgid "index.html"
 msgstr "index.html"
 
-#: Base.java:1811
+#: Base.java:1817
 msgid "Guide_Environment.html"
 msgstr "Guide_Environment.html"
 
-#: Base.java:1816
+#: Base.java:1822
 msgid "environment"
 msgstr "환경"
 
-#: Base.java:1816
+#: Base.java:1822
 msgid "platforms.html"
 msgstr "platforms.html"
 
-#: Base.java:1821
+#: Base.java:1827
 msgid "Guide_Troubleshooting.html"
 msgstr "Guide_Troubleshooting.html"
 
-#: Base.java:1826
+#: Base.java:1832
 msgid "FAQ.html"
 msgstr "FAQ.html"
 
-#: Base.java:1838
+#: Base.java:1844
 msgid "Message"
 msgstr "메시지"
 
-#: Base.java:1854
+#: Base.java:1860
 msgid "Warning"
 msgstr "경고"
 
-#: Base.java:1873 Editor.java:2154 Editor.java:2165 Editor.java:2175
-#: Editor.java:2193 Preferences.java:250 Sketch.java:479 Sketch.java:485
-#: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
-msgid "Error"
-msgstr "에러"
-
-#: Base.java:2208
+#: Base.java:2214
 #, java-format
 msgid "Could not remove old version of {0}"
 msgstr "{0}의 이전 버젼을 삭제할 수 없습니다"
 
-#: Base.java:2218
+#: Base.java:2224
 #, java-format
 msgid "Could not replace {0}"
 msgstr "{0}를 바꿀 수 없습니다"
 
-#: Base.java:2259 Base.java:2282
+#: Base.java:2265 Base.java:2288
 #, java-format
 msgid "Could not delete {0}"
 msgstr "{0}를 삭제할 수 없습니다"
@@ -306,8 +307,8 @@ msgid ""
 msgstr ""
 
 #: debug/Compiler.java:41
-msgid "http://code.google.com/p/arduino/issues/list"
-msgstr "http://code.google.com/p/arduino/issues/list"
+msgid "http://github.com/arduino/Arduino/issues"
+msgstr ""
 
 #: debug/Compiler.java:43 debug/Uploader.java:54
 #, java-format
@@ -535,7 +536,7 @@ msgstr "페이지 설정"
 msgid "Print"
 msgstr "인쇄"
 
-#: Editor.java:576 Preferences.java:289
+#: Editor.java:576 Preferences.java:284
 msgid "Preferences"
 msgstr "환경 설정"
 
@@ -734,7 +735,7 @@ msgstr ""
 "<BR> 닫기전에 변경사항을 저장하시겠습니까 ?</b><p>만약 저장하지 않으면"
 "변경된 사항은 손실됩니다."
 
-#: Editor.java:2051 Editor.java:2132 Editor.java:2452 Preferences.java:78
+#: Editor.java:2051 Editor.java:2132 Editor.java:2452 I18n.java:42
 #: Sketch.java:589 Sketch.java:741 Sketch.java:1046
 msgid "Cancel"
 msgstr "취소"
@@ -755,7 +756,7 @@ msgstr ""
 "프로세싱은 자체 스케치와 .ino 나 .pde로 끝나는 파일을\n"
 "열수 있습니니다.  "
 
-#: Editor.java:2132 Editor.java:2452 Preferences.java:79 Sketch.java:589
+#: Editor.java:2132 Editor.java:2452 I18n.java:43 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046
 msgid "OK"
 msgstr "확인"
@@ -959,11 +960,23 @@ msgstr "이전"
 msgid "Find"
 msgstr "찾기"
 
-#: Platform.java:167
+#: I18n.java:40 UpdateCheck.java:108
+msgid "Yes"
+msgstr "예"
+
+#: I18n.java:41 UpdateCheck.java:108
+msgid "No"
+msgstr "아니요"
+
+#: I18n.java:44
+msgid "Browse"
+msgstr "찾아보기"
+
+#: Platform.java:172
 msgid "No launcher available"
 msgstr "런처를 사용할 수 없습니다"
 
-#: Platform.java:168
+#: Platform.java:173
 msgid ""
 "Unspecified platform, no launcher available.\n"
 "To enable opening URLs or folders, add a \n"
@@ -973,151 +986,139 @@ msgstr ""
 "URL 또는 폴더를 사용하려면,\n"
 "\"launcher=/path/to/app\" 라인을 preferences.txt에 추가합니다."
 
-#: Preferences.java:76 UpdateCheck.java:108
-msgid "Yes"
-msgstr "예"
-
-#: Preferences.java:77 UpdateCheck.java:108
-msgid "No"
-msgstr "아니요"
-
-#: Preferences.java:80
-msgid "Browse"
-msgstr "찾아보기"
-
-#: Preferences.java:83
+#: Preferences.java:75
 msgid "System Default"
 msgstr ""
 
-#: Preferences.java:84
+#: Preferences.java:76
 msgid "Arabic"
 msgstr ""
 
-#: Preferences.java:85
+#: Preferences.java:77
 msgid "Aragonese"
 msgstr ""
 
-#: Preferences.java:86
+#: Preferences.java:78
 msgid "Catalan"
 msgstr ""
 
-#: Preferences.java:87
+#: Preferences.java:79
 msgid "Chinese Simplified"
 msgstr ""
 
-#: Preferences.java:88
+#: Preferences.java:80
 msgid "Chinese Traditional"
 msgstr ""
 
-#: Preferences.java:89
+#: Preferences.java:81
 msgid "Czech"
 msgstr ""
 
-#: Preferences.java:90
+#: Preferences.java:82
 msgid "Danish"
 msgstr ""
 
-#: Preferences.java:91
+#: Preferences.java:83
 msgid "Dutch"
 msgstr ""
 
-#: Preferences.java:92
+#: Preferences.java:84
 msgid "English"
 msgstr ""
 
-#: Preferences.java:93
+#: Preferences.java:85
 msgid "Estonian"
 msgstr ""
 
-#: Preferences.java:94
+#: Preferences.java:86
 msgid "Filipino"
 msgstr ""
 
-#: Preferences.java:95
+#: Preferences.java:87
 msgid "French"
 msgstr ""
 
-#: Preferences.java:96
+#: Preferences.java:88
 msgid "Galician"
 msgstr ""
 
-#: Preferences.java:97
+#: Preferences.java:89
 msgid "German"
 msgstr ""
 
-#: Preferences.java:98
+#: Preferences.java:90
 msgid "Greek"
 msgstr ""
 
-#: Preferences.java:99
+#: Preferences.java:91
 msgid "Hindi"
 msgstr ""
 
-#: Preferences.java:100
+#: Preferences.java:92
 msgid "Hungarian"
 msgstr ""
 
-#: Preferences.java:101
+#: Preferences.java:93
 msgid "Indonesian"
 msgstr ""
 
-#: Preferences.java:102
+#: Preferences.java:94
 msgid "Italian"
 msgstr ""
 
-#: Preferences.java:103
+#: Preferences.java:95
 msgid "Japanese"
 msgstr ""
 
-#: Preferences.java:104
+#: Preferences.java:96
 msgid "Korean"
 msgstr ""
 
-#: Preferences.java:105
+#: Preferences.java:97
 msgid "Latvian"
 msgstr ""
 
-#: Preferences.java:106
+#: Preferences.java:98
 msgid "Lithuaninan"
 msgstr ""
 
-#: Preferences.java:107
+#: Preferences.java:99
 msgid "Marathi"
 msgstr ""
 
-#: Preferences.java:108
+#: Preferences.java:100
 msgid "Norwegian"
 msgstr ""
 
-#: Preferences.java:109
+#: Preferences.java:101
 msgid "Persian"
 msgstr ""
 
-#: Preferences.java:110
+#: Preferences.java:102
 msgid "Polish"
 msgstr ""
 
-#: Preferences.java:111 Preferences.java:112
+#: Preferences.java:103 Preferences.java:104
 msgid "Portuguese"
 msgstr ""
 
-#: Preferences.java:113
+#: Preferences.java:105
 msgid "Romanian"
 msgstr ""
 
-#: Preferences.java:114
+#: Preferences.java:106
 msgid "Russian"
 msgstr ""
 
-#: Preferences.java:115
+#: Preferences.java:107
 msgid "Spanish"
 msgstr ""
 
-#: Preferences.java:116
+#: Preferences.java:108
 msgid "Tamil"
 msgstr ""
 
-#: Preferences.java:220
+#: Preferences.java:212
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1125,16 +1126,16 @@ msgstr ""
 "기본 설정을 읽을 수 없습니다.\n"
 "아두이노를 다시 설치해야 합니다."
 
-#: Preferences.java:252
+#: Preferences.java:241
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "{0}로 부터 환경설정을 읽을 수 없습니다"
 
-#: Preferences.java:271
+#: Preferences.java:260
 msgid "Error reading preferences"
 msgstr "환경설정을 읽는 중 오류"
 
-#: Preferences.java:273
+#: Preferences.java:262
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1143,67 +1144,67 @@ msgstr ""
 "환경설정을 읽는 중 오류. {0}을 삭제(또는 이동)하고\n"
 "아두이노를 다시 시작합니다."
 
-#: Preferences.java:309
+#: Preferences.java:304
 msgid "Sketchbook location:"
 msgstr "스케치북 위치: "
 
-#: Preferences.java:324
+#: Preferences.java:319
 msgid "Select new sketchbook location"
 msgstr "새로운 스케치북 위치를 선택"
 
-#: Preferences.java:347
+#: Preferences.java:342
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:352 Preferences.java:368
+#: Preferences.java:347 Preferences.java:363
 msgid "  (requires restart of Arduino)"
 msgstr "  (아두이노를 재시작해야 함)"
 
-#: Preferences.java:364
+#: Preferences.java:359
 msgid "Editor font size: "
 msgstr "에디터 글꼴 크기: "
 
-#: Preferences.java:381
+#: Preferences.java:376
 msgid "Show verbose output during: "
 msgstr "다음 동작중 자세한  출력 보이기: "
 
-#: Preferences.java:383
+#: Preferences.java:378
 msgid "compilation "
 msgstr "컴파일 "
 
-#: Preferences.java:385
+#: Preferences.java:380
 msgid "upload"
 msgstr "업로드"
 
-#: Preferences.java:394
+#: Preferences.java:389
 msgid "Verify code after upload"
 msgstr ""
 
-#: Preferences.java:403
+#: Preferences.java:398
 msgid "Use external editor"
 msgstr "외부 에디터 사용"
 
-#: Preferences.java:413
+#: Preferences.java:408
 msgid "Check for updates on startup"
 msgstr "시작시 업데이트 확인"
 
-#: Preferences.java:422
+#: Preferences.java:417
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "스케치 파일을 저장할때 새로운 확장자(.pde -> .ino)로 업데이트"
 
-#: Preferences.java:433
+#: Preferences.java:428
 msgid "Automatically associate .ino files with Arduino"
 msgstr ".ino파일을 아두이노와 자동으로 연결합니니다."
 
-#: Preferences.java:443
+#: Preferences.java:438
 msgid "More preferences can be edited directly in the file"
 msgstr "추가적인 환경 설정은 직접 파일에서 편집할 수 있습니다"
 
-#: Preferences.java:472
+#: Preferences.java:467
 msgid "(edit only when Arduino is not running)"
 msgstr "(아두이노가 실행되지 않는 경우에만 수정 가능)"
 
-#: Preferences.java:619
+#: Preferences.java:614
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "잘못된 글꼴크기 {0}를 무시"

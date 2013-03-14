@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
-#: Base.java:184
+#: Base.java:181
 msgid "Non-fatal error while setting the Look & Feel."
 msgstr "Radās nefatāla kļūda, mēģinot iestatīt Skatu un sajūtu."
 
-#: Base.java:185
+#: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
 msgstr "Kļūdas ziņojums ir sekojošs, bet Arduino vajadzētu darboties labi."
 
-#: Base.java:220
+#: Base.java:217
 msgid "Problem Setting the Platform"
 msgstr "Radās kļūda iestatot platformu."
 
-#: Base.java:221
+#: Base.java:218
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
@@ -38,11 +38,11 @@ msgstr ""
 "Radās nezināma kļūda, mēģinot ielādēt\n"
 "platformai pielāgotu kodu jūsu datorā."
 
-#: Base.java:232
+#: Base.java:229
 msgid "Please install JDK 1.5 or later"
 msgstr "Lūdzu, instalējiet JDK 1.5 vai jaunāku"
 
-#: Base.java:233
+#: Base.java:230
 msgid ""
 "Arduino requires a full JDK (not just a JRE)\n"
 "to run. Please install JDK 1.5 or later.\n"
@@ -52,11 +52,11 @@ msgstr ""
 "lai darbotos. Lūdzu, instalējiet JDK 1.5 vai jaunāku.\n"
 "Vairāk informāciju varat atrast atsaucē."
 
-#: Base.java:257
+#: Base.java:254
 msgid "Sketchbook folder disappeared"
 msgstr "Skiču burtnīcas mape ir pazudusi"
 
-#: Base.java:258
+#: Base.java:255
 msgid ""
 "The sketchbook folder no longer exists.\n"
 "Arduino will switch to the default sketchbook\n"
@@ -70,11 +70,11 @@ msgstr ""
 "ja nepieciešams. Tad Arduino pārstās runāt par sevi\n"
 "trešajā personā."
 
-#: Base.java:532
+#: Base.java:529
 msgid "Time for a Break"
 msgstr "Laiks atpūtai"
 
-#: Base.java:533
+#: Base.java:530
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
@@ -82,19 +82,19 @@ msgstr ""
 "Jūs sasniedzāt šodienas limitu jaunu skiču automātiskajai\n"
 "nosaukšanai. Kā būtu ar kādu pastaigu tā vietā?"
 
-#: Base.java:537
+#: Base.java:534
 msgid "Sunshine"
 msgstr "Saules gaisma"
 
-#: Base.java:538
+#: Base.java:535
 msgid "No really, time for some fresh air for you."
 msgstr "Nē, patiešām, laiks ieelpot svaigu gaisu!"
 
-#: Base.java:633
+#: Base.java:630
 msgid "Open an Arduino sketch..."
 msgstr "Atvērt Arduino skici..."
 
-#: Base.java:772
+#: Base.java:769
 msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
@@ -104,23 +104,23 @@ msgstr ""
 "font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Vai tiešām "
 "vēlaties iziet?</b><p>Aizverot pēdējo atvērto skici, tiks iziets no Arduino."
 
-#: Base.java:782 Editor.java:586
+#: Base.java:779 Editor.java:586
 msgid "Quit"
 msgstr "Iziet"
 
-#: Base.java:903 Editor.java:494
+#: Base.java:900 Editor.java:494
 msgid "Open..."
 msgstr "Atvērt..."
 
-#: Base.java:970
+#: Base.java:967
 msgid "Contributed"
 msgstr "Piedalījās"
 
-#: Base.java:1095
+#: Base.java:1092
 msgid "Sketch Does Not Exist"
 msgstr "Skice nepastāv"
 
-#: Base.java:1096
+#: Base.java:1093
 msgid ""
 "The selected sketch no longer exists.\n"
 "You may need to restart Arduino to update\n"
@@ -130,7 +130,7 @@ msgstr ""
 "Jums var būt nepieciešams pārstartēt Arduino,\n"
 "lai atjauninātu skiču burtnīcas izvēlni."
 
-#: Base.java:1125
+#: Base.java:1122
 #, java-format
 msgid ""
 "The sketch \"{0}\" cannot be used.\n"
@@ -145,11 +145,18 @@ msgstr ""
 "Lai atbrīvotos no šī ziņojuma, aizvāciet skici no\n"
 "{1}"
 
-#: Base.java:1132
+#: Base.java:1129
 msgid "Ignoring sketch with bad name"
 msgstr "Ignorē skici ar nekorektu nosaukumu"
 
-#: Base.java:1202
+#: Base.java:1187 Base.java:1232 Base.java:1879 Editor.java:2154
+#: Editor.java:2165 Editor.java:2175 Editor.java:2193 Preferences.java:239
+#: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
+#: Sketch.java:530 Sketch.java:547
+msgid "Error"
+msgstr "Kļūda"
+
+#: Base.java:1204
 #, java-format
 msgid ""
 "The library \"{0}\" cannot be used.\n"
@@ -160,23 +167,23 @@ msgstr ""
 "Bibliotēku nosaukumiem jāsatur tikai parastos burtus un ciparus.\n"
 "(Tikai ASCII, bez atstarpēm, un tas nedrīkst sākties ar ciparu)"
 
-#: Base.java:1207
+#: Base.java:1209
 msgid "Ignoring bad library name"
 msgstr "Ignorē nekorektu bibliotēkas nosaukumu"
 
-#: Base.java:1432
+#: Base.java:1438
 msgid "Problem getting data folder"
 msgstr "Radās problēma, iegūstot datu mapi"
 
-#: Base.java:1433
+#: Base.java:1439
 msgid "Error getting the Arduino data folder."
 msgstr "Radās kļūda, iegūstot Arduino datu mapi."
 
-#: Base.java:1440
+#: Base.java:1446
 msgid "Settings issues"
 msgstr "Iestatījumu problēmas"
 
-#: Base.java:1441
+#: Base.java:1447
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
@@ -184,17 +191,17 @@ msgstr ""
 "Arduino nevar tikt palaists, jo tas nevar \n"
 "izveidot mapi, kur saglabāt jūsu iestatījumus."
 
-#: Base.java:1577
+#: Base.java:1583
 msgid ""
 "For information on installing libraries, see: http://arduino.cc/en/Guide/"
 "Libraries\n"
 msgstr ""
 
-#: Base.java:1614
+#: Base.java:1620
 msgid "You forgot your sketchbook"
 msgstr "Jūs aizmirsāt skiču burtnīcu"
 
-#: Base.java:1615
+#: Base.java:1621
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
@@ -202,15 +209,15 @@ msgstr ""
 "Arduino nevar tikt palaists, jo tas nevar \n"
 "izveidot mapi, kur saglabāt jūsu skiču mapi."
 
-#: Base.java:1635
+#: Base.java:1641
 msgid "Select (or create new) folder for sketches..."
 msgstr "Izvēlieties (vai izveidojiet jaunu) mapi skicēm..."
 
-#: Base.java:1659
+#: Base.java:1665
 msgid "Problem Opening URL"
 msgstr "Problēma, atverot URL"
 
-#: Base.java:1660
+#: Base.java:1666
 #, java-format
 msgid ""
 "Could not open the URL\n"
@@ -219,11 +226,11 @@ msgstr ""
 "Neizdevās atvērt URL\n"
 "{0}"
 
-#: Base.java:1683
+#: Base.java:1689
 msgid "Problem Opening Folder"
 msgstr "Problēma, atverot mapi"
 
-#: Base.java:1684
+#: Base.java:1690
 #, java-format
 msgid ""
 "Could not open the folder\n"
@@ -232,67 +239,61 @@ msgstr ""
 "Neizdevās atvērt mapi\n"
 "{0}"
 
-#: Base.java:1797
+#: Base.java:1803
 msgid "Guide_MacOSX.html"
 msgstr "Guide_MacOSX.html"
 
-#: Base.java:1799
+#: Base.java:1805
 msgid "Guide_Windows.html"
 msgstr "Guide_Windows.html"
 
-#: Base.java:1801
+#: Base.java:1807
 msgid "http://www.arduino.cc/playground/Learning/Linux"
 msgstr "http://www.arduino.cc/playground/Learning/Linux"
 
-#: Base.java:1806
+#: Base.java:1812
 msgid "index.html"
 msgstr "index.html"
 
-#: Base.java:1811
+#: Base.java:1817
 msgid "Guide_Environment.html"
 msgstr "Guide_Environment.html"
 
-#: Base.java:1816
+#: Base.java:1822
 msgid "environment"
 msgstr "vide"
 
-#: Base.java:1816
+#: Base.java:1822
 msgid "platforms.html"
 msgstr "platforms.html"
 
-#: Base.java:1821
+#: Base.java:1827
 msgid "Guide_Troubleshooting.html"
 msgstr "Guide_Troubleshooting.html"
 
-#: Base.java:1826
+#: Base.java:1832
 msgid "FAQ.html"
 msgstr "FAQ.html"
 
-#: Base.java:1838
+#: Base.java:1844
 msgid "Message"
 msgstr "Ziņojums"
 
-#: Base.java:1854
+#: Base.java:1860
 msgid "Warning"
 msgstr "Brīdinājums"
 
-#: Base.java:1873 Editor.java:2154 Editor.java:2165 Editor.java:2175
-#: Editor.java:2193 Preferences.java:250 Sketch.java:479 Sketch.java:485
-#: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
-msgid "Error"
-msgstr "Kļūda"
-
-#: Base.java:2208
+#: Base.java:2214
 #, java-format
 msgid "Could not remove old version of {0}"
 msgstr "Neizdevās aizvākt {0} veco versiju"
 
-#: Base.java:2218
+#: Base.java:2224
 #, java-format
 msgid "Could not replace {0}"
 msgstr "Neizdevās aizvietot {0}"
 
-#: Base.java:2259 Base.java:2282
+#: Base.java:2265 Base.java:2288
 #, java-format
 msgid "Could not delete {0}"
 msgstr "Neidevās izdzēst {0}"
@@ -309,8 +310,8 @@ msgid ""
 msgstr ""
 
 #: debug/Compiler.java:41
-msgid "http://code.google.com/p/arduino/issues/list"
-msgstr "http://code.google.com/p/arduino/issues/list"
+msgid "http://github.com/arduino/Arduino/issues"
+msgstr ""
 
 #: debug/Compiler.java:43 debug/Uploader.java:54
 #, java-format
@@ -541,7 +542,7 @@ msgstr "Lapas iestatījumi"
 msgid "Print"
 msgstr "Drukāt"
 
-#: Editor.java:576 Preferences.java:289
+#: Editor.java:576 Preferences.java:284
 msgid "Preferences"
 msgstr "Iestatījumi"
 
@@ -740,7 +741,7 @@ msgstr ""
 "saglabāt izmaiņas šajā skicē<BR> pirms aizvēršanas?</b><p>Ja nesaglabāsiet, "
 "visas jūsu veiktās izmaiņas pazudīs."
 
-#: Editor.java:2051 Editor.java:2132 Editor.java:2452 Preferences.java:78
+#: Editor.java:2051 Editor.java:2132 Editor.java:2452 I18n.java:42
 #: Sketch.java:589 Sketch.java:741 Sketch.java:1046
 msgid "Cancel"
 msgstr "Atcelt"
@@ -761,7 +762,7 @@ msgstr ""
 "\"Processing\" var atvērt tikai paša skices\n"
 "un citus failus, kas beidzas ar .ino vai .pde"
 
-#: Editor.java:2132 Editor.java:2452 Preferences.java:79 Sketch.java:589
+#: Editor.java:2132 Editor.java:2452 I18n.java:43 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046
 msgid "OK"
 msgstr "Labi"
@@ -966,11 +967,23 @@ msgstr "Iepriekšējais"
 msgid "Find"
 msgstr "Meklēt"
 
-#: Platform.java:167
+#: I18n.java:40 UpdateCheck.java:108
+msgid "Yes"
+msgstr "Jā"
+
+#: I18n.java:41 UpdateCheck.java:108
+msgid "No"
+msgstr "Nē"
+
+#: I18n.java:44
+msgid "Browse"
+msgstr "Pārlūkot"
+
+#: Platform.java:172
 msgid "No launcher available"
 msgstr "Neviens palaidējs nav pieejams"
 
-#: Platform.java:168
+#: Platform.java:173
 msgid ""
 "Unspecified platform, no launcher available.\n"
 "To enable opening URLs or folders, add a \n"
@@ -980,151 +993,139 @@ msgstr ""
 "Lai ieslēgtu URL vai mapju atvēršanu, pievienojiet\n"
 "\"launcher=/ceļš/līdz/programmai\" rindu failā preferences.txt"
 
-#: Preferences.java:76 UpdateCheck.java:108
-msgid "Yes"
-msgstr "Jā"
-
-#: Preferences.java:77 UpdateCheck.java:108
-msgid "No"
-msgstr "Nē"
-
-#: Preferences.java:80
-msgid "Browse"
-msgstr "Pārlūkot"
-
-#: Preferences.java:83
+#: Preferences.java:75
 msgid "System Default"
 msgstr ""
 
-#: Preferences.java:84
+#: Preferences.java:76
 msgid "Arabic"
 msgstr ""
 
-#: Preferences.java:85
+#: Preferences.java:77
 msgid "Aragonese"
 msgstr ""
 
-#: Preferences.java:86
+#: Preferences.java:78
 msgid "Catalan"
 msgstr ""
 
-#: Preferences.java:87
+#: Preferences.java:79
 msgid "Chinese Simplified"
 msgstr ""
 
-#: Preferences.java:88
+#: Preferences.java:80
 msgid "Chinese Traditional"
 msgstr ""
 
-#: Preferences.java:89
+#: Preferences.java:81
 msgid "Czech"
 msgstr ""
 
-#: Preferences.java:90
+#: Preferences.java:82
 msgid "Danish"
 msgstr ""
 
-#: Preferences.java:91
+#: Preferences.java:83
 msgid "Dutch"
 msgstr ""
 
-#: Preferences.java:92
+#: Preferences.java:84
 msgid "English"
 msgstr ""
 
-#: Preferences.java:93
+#: Preferences.java:85
 msgid "Estonian"
 msgstr ""
 
-#: Preferences.java:94
+#: Preferences.java:86
 msgid "Filipino"
 msgstr ""
 
-#: Preferences.java:95
+#: Preferences.java:87
 msgid "French"
 msgstr ""
 
-#: Preferences.java:96
+#: Preferences.java:88
 msgid "Galician"
 msgstr ""
 
-#: Preferences.java:97
+#: Preferences.java:89
 msgid "German"
 msgstr ""
 
-#: Preferences.java:98
+#: Preferences.java:90
 msgid "Greek"
 msgstr ""
 
-#: Preferences.java:99
+#: Preferences.java:91
 msgid "Hindi"
 msgstr ""
 
-#: Preferences.java:100
+#: Preferences.java:92
 msgid "Hungarian"
 msgstr ""
 
-#: Preferences.java:101
+#: Preferences.java:93
 msgid "Indonesian"
 msgstr ""
 
-#: Preferences.java:102
+#: Preferences.java:94
 msgid "Italian"
 msgstr ""
 
-#: Preferences.java:103
+#: Preferences.java:95
 msgid "Japanese"
 msgstr ""
 
-#: Preferences.java:104
+#: Preferences.java:96
 msgid "Korean"
 msgstr ""
 
-#: Preferences.java:105
+#: Preferences.java:97
 msgid "Latvian"
 msgstr "Latviešu"
 
-#: Preferences.java:106
+#: Preferences.java:98
 msgid "Lithuaninan"
 msgstr ""
 
-#: Preferences.java:107
+#: Preferences.java:99
 msgid "Marathi"
 msgstr ""
 
-#: Preferences.java:108
+#: Preferences.java:100
 msgid "Norwegian"
 msgstr ""
 
-#: Preferences.java:109
+#: Preferences.java:101
 msgid "Persian"
 msgstr ""
 
-#: Preferences.java:110
+#: Preferences.java:102
 msgid "Polish"
 msgstr ""
 
-#: Preferences.java:111 Preferences.java:112
+#: Preferences.java:103 Preferences.java:104
 msgid "Portuguese"
 msgstr ""
 
-#: Preferences.java:113
+#: Preferences.java:105
 msgid "Romanian"
 msgstr ""
 
-#: Preferences.java:114
+#: Preferences.java:106
 msgid "Russian"
 msgstr ""
 
-#: Preferences.java:115
+#: Preferences.java:107
 msgid "Spanish"
 msgstr ""
 
-#: Preferences.java:116
+#: Preferences.java:108
 msgid "Tamil"
 msgstr ""
 
-#: Preferences.java:220
+#: Preferences.java:212
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1132,16 +1133,16 @@ msgstr ""
 "Nevar nolasīt noklusējuma iestatījumus.\n"
 "Jums vajadzēs pārinstalēt Arduino."
 
-#: Preferences.java:252
+#: Preferences.java:241
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Neizdevās nolasīt iestatījumus no {0}"
 
-#: Preferences.java:271
+#: Preferences.java:260
 msgid "Error reading preferences"
 msgstr "Kļūda, nolasot iestatījumus"
 
-#: Preferences.java:273
+#: Preferences.java:262
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1150,69 +1151,69 @@ msgstr ""
 "Kļūda, nolasot iestatījumu failu. Lūdzu, izdzēsiet (vai pārvietojiet)\n"
 "{0} un pārstartējiet Arduino."
 
-#: Preferences.java:309
+#: Preferences.java:304
 msgid "Sketchbook location:"
 msgstr "Skiču burtnīcas atrašanās vieta:"
 
-#: Preferences.java:324
+#: Preferences.java:319
 msgid "Select new sketchbook location"
 msgstr "Izvēlieties jaunu skiču burtnīcas atrašanās vietu"
 
-#: Preferences.java:347
+#: Preferences.java:342
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:352 Preferences.java:368
+#: Preferences.java:347 Preferences.java:363
 msgid "  (requires restart of Arduino)"
 msgstr "  (būs nepieciešams pārstartēt Arduino)"
 
-#: Preferences.java:364
+#: Preferences.java:359
 msgid "Editor font size: "
 msgstr "Redaktora fonta izmērs:"
 
-#: Preferences.java:381
+#: Preferences.java:376
 msgid "Show verbose output during: "
 msgstr "Rādīt detalizētāku izvadi, kad:"
 
-#: Preferences.java:383
+#: Preferences.java:378
 msgid "compilation "
 msgstr "kompilē"
 
-#: Preferences.java:385
+#: Preferences.java:380
 msgid "upload"
 msgstr "augšupielādē"
 
-#: Preferences.java:394
+#: Preferences.java:389
 msgid "Verify code after upload"
 msgstr "Pārbaudīt kodu pēc augšupielādes"
 
-#: Preferences.java:403
+#: Preferences.java:398
 msgid "Use external editor"
 msgstr "Izmantot ārējo redaktoru"
 
-#: Preferences.java:413
+#: Preferences.java:408
 msgid "Check for updates on startup"
 msgstr "Pārbaudīt atjauninājumus palaišanas laikā"
 
-#: Preferences.java:422
+#: Preferences.java:417
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr ""
 "Veicot saglabāšanu, atjaunināt skiču failus uz jauno paplašinājumu (.pde -> "
 ".ino)"
 
-#: Preferences.java:433
+#: Preferences.java:428
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automātiski asociēt .ino failus ar Arduino"
 
-#: Preferences.java:443
+#: Preferences.java:438
 msgid "More preferences can be edited directly in the file"
 msgstr "Vairāk iestatījumus var izmainīt tieši failā"
 
-#: Preferences.java:472
+#: Preferences.java:467
 msgid "(edit only when Arduino is not running)"
 msgstr "(rediģējiet tikai tad, kad Arduino nav palaists)"
 
-#: Preferences.java:619
+#: Preferences.java:614
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ignorē nederīgu fontu izmēru {0}"

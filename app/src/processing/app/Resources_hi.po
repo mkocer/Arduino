@@ -18,40 +18,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Base.java:184
+#: Base.java:181
 msgid "Non-fatal error while setting the Look & Feel."
 msgstr "रूप और महसूस है की स्थापना करते हुए गैर घातक त्रुटि"
 
-#: Base.java:185
+#: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
 msgstr "त्रुटि संदेश इस प्रकार है, लेकिन आर्दुइनो ठीक चलाना चाहिए"
 
-#: Base.java:220
+#: Base.java:217
 msgid "Problem Setting the Platform"
 msgstr "प्लेटफार्म की स्थापना मे समस्या "
 
-#: Base.java:221
+#: Base.java:218
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
 msgstr "मशीन के लिए विशिष्ट कोड लोड करने का प्रयास करते समय एक अज्ञात त्रुटि हुई\n"
 
-#: Base.java:232
+#: Base.java:229
 msgid "Please install JDK 1.5 or later"
 msgstr "कृपया जेडीके 1.5 या बाद का स्थापित करेंं"
 
-#: Base.java:233
+#: Base.java:230
 msgid ""
 "Arduino requires a full JDK (not just a JRE)\n"
 "to run. Please install JDK 1.5 or later.\n"
 "More information can be found in the reference."
 msgstr "आर्दुइनो को काम करने के लिए पूर्ण जे.डी.के. चाहिए(सिर्फ एक जे.आर.ई. नही)| कृपया पहले जेडीके 1.5 या बाद का स्थापित करें| अधिक जानकारी संदर्भ में पाई जा सकती है|"
 
-#: Base.java:257
+#: Base.java:254
 msgid "Sketchbook folder disappeared"
 msgstr "स्केत्चबुक फोल्डर गायब हो गया है"
 
-#: Base.java:258
+#: Base.java:255
 msgid ""
 "The sketchbook folder no longer exists.\n"
 "Arduino will switch to the default sketchbook\n"
@@ -60,11 +60,11 @@ msgid ""
 "himself in the third person."
 msgstr "स्केत्चबुक फ़ोल्डर अब मौजूद नहीं है| आर्दुइनो डिफ़ॉल्ट स्केत्चबुक स्थान पर स्विच जाएगा, और यदि आवश्यक एक नया स्केत्चबुक फ़ोल्डर बनाएगा| आर्दुइनो तब तीसरे व्यक्ति में खुद के बारे में बात करना बंद कर देंगे."
 
-#: Base.java:532
+#: Base.java:529
 msgid "Time for a Break"
 msgstr "ब्रेक का समय"
 
-#: Base.java:533
+#: Base.java:530
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
@@ -72,19 +72,19 @@ msgstr ""
 "आप आज के दिन के नए स्केच के स्वत: नामकरण की सीमा तक पहुँच गए हैं\n"
 "इसके बजाय टहलने जाने के बारे मे क्या खयाल है?"
 
-#: Base.java:537
+#: Base.java:534
 msgid "Sunshine"
 msgstr "सूर्य किरन"
 
-#: Base.java:538
+#: Base.java:535
 msgid "No really, time for some fresh air for you."
 msgstr "नहीं, वास्तव में, आप के लिए कुछ ताजा हवा के लिए समय है."
 
-#: Base.java:633
+#: Base.java:630
 msgid "Open an Arduino sketch..."
 msgstr "आर्दुइनो स्केच खोलिए "
 
-#: Base.java:772
+#: Base.java:769
 msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
@@ -93,23 +93,23 @@ msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" 
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>क्या आप  "
 "सच में छोड़ कर जाना चाहते हैं ?</b><p>आखिरी खुला स्केच बंद करने से आर्दुइनो बंद हो जाएगा |"
 
-#: Base.java:782 Editor.java:586
+#: Base.java:779 Editor.java:586
 msgid "Quit"
 msgstr "छोडिये"
 
-#: Base.java:903 Editor.java:494
+#: Base.java:900 Editor.java:494
 msgid "Open..."
 msgstr "खोलिए..."
 
-#: Base.java:970
+#: Base.java:967
 msgid "Contributed"
 msgstr "योगदान दिया"
 
-#: Base.java:1095
+#: Base.java:1092
 msgid "Sketch Does Not Exist"
 msgstr "स्केच मौजूद नहीं है"
 
-#: Base.java:1096
+#: Base.java:1093
 msgid ""
 "The selected sketch no longer exists.\n"
 "You may need to restart Arduino to update\n"
@@ -118,7 +118,7 @@ msgstr ""
 "चयनित स्केच अब मौजूद नहीं है|\n"
 "आपको स्केचबुक मेनू को अपडेट करने के लिए अर्दुइनो को पुनः आरम्भ करने की आवश्यकता है "
 
-#: Base.java:1125
+#: Base.java:1122
 #, java-format
 msgid ""
 "The sketch \"{0}\" cannot be used.\n"
@@ -132,11 +132,18 @@ msgstr ""
 "(कोई स्पेस के बिना केवल ASCII, और यह एक संख्या के साथ शुरू नहीं कर सकते)\n"
 "इस संदेश से छुटकारा पाने के लिए स्केच को {1} से हटायें\n"
 
-#: Base.java:1132
+#: Base.java:1129
 msgid "Ignoring sketch with bad name"
 msgstr "बुरा नाम के कारण स्केच की अनदेखी"
 
-#: Base.java:1202
+#: Base.java:1187 Base.java:1232 Base.java:1879 Editor.java:2154
+#: Editor.java:2165 Editor.java:2175 Editor.java:2193 Preferences.java:239
+#: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
+#: Sketch.java:530 Sketch.java:547
+msgid "Error"
+msgstr "त्रुटि"
+
+#: Base.java:1204
 #, java-format
 msgid ""
 "The library \"{0}\" cannot be used.\n"
@@ -147,54 +154,54 @@ msgstr ""
 "लैब्ररी के नाम मे केवल मूल अक्षर और संख्याएँ शामिल होना चाहिए |\n"
 "(केवल आस्की और रिक्त स्थान नहीं, और यह एक संख्या के साथ शुरू नहीं कर सकते)"
 
-#: Base.java:1207
+#: Base.java:1209
 msgid "Ignoring bad library name"
 msgstr "बुरी लायब्रेरी नाम की अनदेखी"
 
-#: Base.java:1432
+#: Base.java:1438
 msgid "Problem getting data folder"
 msgstr "डेटा फ़ोल्डर को लेने में समस्या है "
 
-#: Base.java:1433
+#: Base.java:1439
 msgid "Error getting the Arduino data folder."
 msgstr "आर्दुइनो डेटा फ़ोल्डर प्राप्त करने में त्रुटि"
 
-#: Base.java:1440
+#: Base.java:1446
 msgid "Settings issues"
 msgstr "मुद्दे की स्थापना"
 
-#: Base.java:1441
+#: Base.java:1447
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
 msgstr ""
 "आर्दुइनो को नहीं चला सकते क्योकि अपनी सेटिंग्स को स्टोर करने के लिए फ़ोल्डर नहीं बना सकता"
 
-#: Base.java:1577
+#: Base.java:1583
 msgid ""
 "For information on installing libraries, see: http://arduino.cc/en/Guide/"
 "Libraries\n"
 msgstr ""
 
-#: Base.java:1614
+#: Base.java:1620
 msgid "You forgot your sketchbook"
 msgstr "आप अपनी स्केचबुक भूल गए "
 
-#: Base.java:1615
+#: Base.java:1621
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr "आर्दुइनो को नहीं चला सकते क्योकि अपनी सेटिंग्स को स्टोर करने के लिए फ़ोल्डर नहीं बना सकता"
 
-#: Base.java:1635
+#: Base.java:1641
 msgid "Select (or create new) folder for sketches..."
 msgstr "स्केच बनाने के लिए फ़ोल्डर का चयन करें अथवा नया बनाएँ"
 
-#: Base.java:1659
+#: Base.java:1665
 msgid "Problem Opening URL"
 msgstr "यूआरएल खोलने में समस्या है"
 
-#: Base.java:1660
+#: Base.java:1666
 #, java-format
 msgid ""
 "Could not open the URL\n"
@@ -202,11 +209,11 @@ msgid ""
 msgstr "यूआरएल नहीं खोल सका\n"
 "{0}"
 
-#: Base.java:1683
+#: Base.java:1689
 msgid "Problem Opening Folder"
 msgstr "फ़ोल्डर खोलने में समस्या है"
 
-#: Base.java:1684
+#: Base.java:1690
 #, java-format
 msgid ""
 "Could not open the folder\n"
@@ -214,67 +221,61 @@ msgid ""
 msgstr "फ़ोल्डर नहीं खोल सका\n"
 "{0}"
 
-#: Base.java:1797
+#: Base.java:1803
 msgid "Guide_MacOSX.html"
 msgstr "Guide_MacOSX.html"
 
-#: Base.java:1799
+#: Base.java:1805
 msgid "Guide_Windows.html"
 msgstr "Guide_Windows.html"
 
-#: Base.java:1801
+#: Base.java:1807
 msgid "http://www.arduino.cc/playground/Learning/Linux"
 msgstr "http://www.arduino.cc/playground/Learning/Linux"
 
-#: Base.java:1806
+#: Base.java:1812
 msgid "index.html"
 msgstr "index.html"
 
-#: Base.java:1811
+#: Base.java:1817
 msgid "Guide_Environment.html"
 msgstr "Guide_Environment.html"
 
-#: Base.java:1816
+#: Base.java:1822
 msgid "environment"
 msgstr "वातावरण "
 
-#: Base.java:1816
+#: Base.java:1822
 msgid "platforms.html"
 msgstr "platforms.html"
 
-#: Base.java:1821
+#: Base.java:1827
 msgid "Guide_Troubleshooting.html"
 msgstr "Guide_Troubleshooting.html"
 
-#: Base.java:1826
+#: Base.java:1832
 msgid "FAQ.html"
 msgstr "FAQ.html"
 
-#: Base.java:1838
+#: Base.java:1844
 msgid "Message"
 msgstr "संदेश"
 
-#: Base.java:1854
+#: Base.java:1860
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: Base.java:1873 Editor.java:2154 Editor.java:2165 Editor.java:2175
-#: Editor.java:2193 Preferences.java:250 Sketch.java:479 Sketch.java:485
-#: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
-msgid "Error"
-msgstr "त्रुटि"
-
-#: Base.java:2208
+#: Base.java:2214
 #, java-format
 msgid "Could not remove old version of {0}"
 msgstr "{0} के पुराने संस्करण को दूर नहीं किया जा सका"
 
-#: Base.java:2218
+#: Base.java:2224
 #, java-format
 msgid "Could not replace {0}"
 msgstr "{0} की जगह नहीं कर सका"
 
-#: Base.java:2259 Base.java:2282
+#: Base.java:2265 Base.java:2288
 #, java-format
 msgid "Could not delete {0}"
 msgstr "{0} को नष्ट नहीं कर सका"
@@ -291,8 +292,8 @@ msgid ""
 msgstr ""
 
 #: debug/Compiler.java:41
-msgid "http://code.google.com/p/arduino/issues/list"
-msgstr "http://code.google.com/p/arduino/issues/list"
+msgid "http://github.com/arduino/Arduino/issues"
+msgstr ""
 
 #: debug/Compiler.java:43 debug/Uploader.java:54
 #, java-format
@@ -496,7 +497,7 @@ msgstr "पृष्ठ सेटअप"
 msgid "Print"
 msgstr "प्रिंट"
 
-#: Editor.java:576 Preferences.java:289
+#: Editor.java:576 Preferences.java:284
 msgid "Preferences"
 msgstr "प्राथमिकताएं"
 
@@ -695,7 +696,7 @@ msgstr ""
 "इस स्केच मे बदलाव सहेजना चाहते हैं<BR> बंद करने से पहले?</b><p>अगर आप नही "
 "सहेजते हैं, आपके परिवर्तन खो जाएँगे"
 
-#: Editor.java:2051 Editor.java:2132 Editor.java:2452 Preferences.java:78
+#: Editor.java:2051 Editor.java:2132 Editor.java:2452 I18n.java:42
 #: Sketch.java:589 Sketch.java:741 Sketch.java:1046
 msgid "Cancel"
 msgstr "रद्द"
@@ -716,7 +717,7 @@ msgstr ""
 "प्रोसेसिंग  केवल अपने ही स्केचेस खोल सकता है\n"
 "और दूसरी फाइल्स जिनका अंत .ino अथवा .pde से होता है"
 
-#: Editor.java:2132 Editor.java:2452 Preferences.java:79 Sketch.java:589
+#: Editor.java:2132 Editor.java:2452 I18n.java:43 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046
 msgid "OK"
 msgstr "ओके"
@@ -920,11 +921,23 @@ msgstr "पिछला "
 msgid "Find"
 msgstr "खोजें "
 
-#: Platform.java:167
+#: I18n.java:40 UpdateCheck.java:108
+msgid "Yes"
+msgstr "हाँ "
+
+#: I18n.java:41 UpdateCheck.java:108
+msgid "No"
+msgstr "नहीं "
+
+#: I18n.java:44
+msgid "Browse"
+msgstr "ब्राउज़ करें"
+
+#: Platform.java:172
 msgid "No launcher available"
 msgstr "कोई प्रारंभ करता  उपलभ्द नहीं "
 
-#: Platform.java:168
+#: Platform.java:173
 msgid ""
 "Unspecified platform, no launcher available.\n"
 "To enable opening URLs or folders, add a \n"
@@ -933,151 +946,139 @@ msgstr ""
 "अनिर्दिष्ट प्लात्फोर्म , कोई प्रारंभ करता उपलभ्द नहीं \n"
 "URL और पुसितका खोलने के लिए जोडीये\"launcher=/path/to/app\" लाइन को preferences .txt में"
 
-#: Preferences.java:76 UpdateCheck.java:108
-msgid "Yes"
-msgstr "हाँ "
-
-#: Preferences.java:77 UpdateCheck.java:108
-msgid "No"
-msgstr "नहीं "
-
-#: Preferences.java:80
-msgid "Browse"
-msgstr "ब्राउज़ करें"
-
-#: Preferences.java:83
+#: Preferences.java:75
 msgid "System Default"
 msgstr ""
 
-#: Preferences.java:84
+#: Preferences.java:76
 msgid "Arabic"
 msgstr ""
 
-#: Preferences.java:85
+#: Preferences.java:77
 msgid "Aragonese"
 msgstr ""
 
-#: Preferences.java:86
+#: Preferences.java:78
 msgid "Catalan"
 msgstr ""
 
-#: Preferences.java:87
+#: Preferences.java:79
 msgid "Chinese Simplified"
 msgstr ""
 
-#: Preferences.java:88
+#: Preferences.java:80
 msgid "Chinese Traditional"
 msgstr ""
 
-#: Preferences.java:89
+#: Preferences.java:81
 msgid "Czech"
 msgstr ""
 
-#: Preferences.java:90
+#: Preferences.java:82
 msgid "Danish"
 msgstr ""
 
-#: Preferences.java:91
+#: Preferences.java:83
 msgid "Dutch"
 msgstr ""
 
-#: Preferences.java:92
+#: Preferences.java:84
 msgid "English"
 msgstr ""
 
-#: Preferences.java:93
+#: Preferences.java:85
 msgid "Estonian"
 msgstr ""
 
-#: Preferences.java:94
+#: Preferences.java:86
 msgid "Filipino"
 msgstr ""
 
-#: Preferences.java:95
+#: Preferences.java:87
 msgid "French"
 msgstr ""
 
-#: Preferences.java:96
+#: Preferences.java:88
 msgid "Galician"
 msgstr ""
 
-#: Preferences.java:97
+#: Preferences.java:89
 msgid "German"
 msgstr ""
 
-#: Preferences.java:98
+#: Preferences.java:90
 msgid "Greek"
 msgstr ""
 
-#: Preferences.java:99
+#: Preferences.java:91
 msgid "Hindi"
 msgstr ""
 
-#: Preferences.java:100
+#: Preferences.java:92
 msgid "Hungarian"
 msgstr ""
 
-#: Preferences.java:101
+#: Preferences.java:93
 msgid "Indonesian"
 msgstr ""
 
-#: Preferences.java:102
+#: Preferences.java:94
 msgid "Italian"
 msgstr ""
 
-#: Preferences.java:103
+#: Preferences.java:95
 msgid "Japanese"
 msgstr ""
 
-#: Preferences.java:104
+#: Preferences.java:96
 msgid "Korean"
 msgstr ""
 
-#: Preferences.java:105
+#: Preferences.java:97
 msgid "Latvian"
 msgstr ""
 
-#: Preferences.java:106
+#: Preferences.java:98
 msgid "Lithuaninan"
 msgstr ""
 
-#: Preferences.java:107
+#: Preferences.java:99
 msgid "Marathi"
 msgstr ""
 
-#: Preferences.java:108
+#: Preferences.java:100
 msgid "Norwegian"
 msgstr ""
 
-#: Preferences.java:109
+#: Preferences.java:101
 msgid "Persian"
 msgstr ""
 
-#: Preferences.java:110
+#: Preferences.java:102
 msgid "Polish"
 msgstr ""
 
-#: Preferences.java:111 Preferences.java:112
+#: Preferences.java:103 Preferences.java:104
 msgid "Portuguese"
 msgstr ""
 
-#: Preferences.java:113
+#: Preferences.java:105
 msgid "Romanian"
 msgstr ""
 
-#: Preferences.java:114
+#: Preferences.java:106
 msgid "Russian"
 msgstr ""
 
-#: Preferences.java:115
+#: Preferences.java:107
 msgid "Spanish"
 msgstr ""
 
-#: Preferences.java:116
+#: Preferences.java:108
 msgid "Tamil"
 msgstr ""
 
-#: Preferences.java:220
+#: Preferences.java:212
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1085,16 +1086,16 @@ msgstr ""
 "डिफौल्ट सेत्तिंग्स स्तापित  नहीं हो सकी \n"
 "अर्दुइनो फिर से इन्स्टाल कीजिये"
 
-#: Preferences.java:252
+#: Preferences.java:241
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "{०} से प्रेफेरेंसस पढ़ी नहीं जा सकी "
 
-#: Preferences.java:271
+#: Preferences.java:260
 msgid "Error reading preferences"
 msgstr "प्रेफेरेंसस पढने में त्रुटी "
 
-#: Preferences.java:273
+#: Preferences.java:262
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1103,67 +1104,67 @@ msgstr ""
 "प्रेफेरेंसस पढने में त्रुटी ,कृप्या \n"
 "{0} को मिटायें या हटायें और अर्दुइनो पुन्हें चालू करें "
 
-#: Preferences.java:309
+#: Preferences.java:304
 msgid "Sketchbook location:"
 msgstr "स्केत्च  किताब का स्थान "
 
-#: Preferences.java:324
+#: Preferences.java:319
 msgid "Select new sketchbook location"
 msgstr "स्केत्च किताब की नयी जगह चुनिए "
 
-#: Preferences.java:347
+#: Preferences.java:342
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:352 Preferences.java:368
+#: Preferences.java:347 Preferences.java:363
 msgid "  (requires restart of Arduino)"
 msgstr "अर्दुइनो को फिर से चालू करें "
 
-#: Preferences.java:364
+#: Preferences.java:359
 msgid "Editor font size: "
 msgstr "एडिटर फॉण्ट साइज़:"
 
-#: Preferences.java:381
+#: Preferences.java:376
 msgid "Show verbose output during: "
 msgstr "वाचाल आउट पुट दिखाएं:"
 
-#: Preferences.java:383
+#: Preferences.java:378
 msgid "compilation "
 msgstr "संकलन "
 
-#: Preferences.java:385
+#: Preferences.java:380
 msgid "upload"
 msgstr "उपलोड "
 
-#: Preferences.java:394
+#: Preferences.java:389
 msgid "Verify code after upload"
 msgstr ""
 
-#: Preferences.java:403
+#: Preferences.java:398
 msgid "Use external editor"
 msgstr "बाहरी एडिटर इस्तेमाल करें "
 
-#: Preferences.java:413
+#: Preferences.java:408
 msgid "Check for updates on startup"
 msgstr "शुरुआत  में अद्यतन के लिए जांचें "
 
-#: Preferences.java:422
+#: Preferences.java:417
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "स्केत्च फिल्स को पुराने एक्ष्तेन्सिओन  से नए में  अपडेट कीजिये(.pde -> .ino)"
 
-#: Preferences.java:433
+#: Preferences.java:428
 msgid "Automatically associate .ino files with Arduino"
 msgstr "स्वत: .INO फाइल का सहयोगी अर्दुइनो को बनाये "
 
-#: Preferences.java:443
+#: Preferences.java:438
 msgid "More preferences can be edited directly in the file"
 msgstr "और बोहोत सी प्रेफेरेंसस सीधा फाइल में सम्पादित  की जा सकती हैं "
 
-#: Preferences.java:472
+#: Preferences.java:467
 msgid "(edit only when Arduino is not running)"
 msgstr "(तभी सम्पादित करें जब अर्दुइनो चल न रहा हो)"
 
-#: Preferences.java:619
+#: Preferences.java:614
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "अवैध फॉण्ट आकार को नज़रंदाज़ करें "
