@@ -22,30 +22,30 @@ msgstr ""
 "Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: Base.java:181
+#: Base.java:185
 msgid "Non-fatal error while setting the Look & Feel."
 msgstr "Erro não fatal ao configurar Aparência."
 
-#: Base.java:182
+#: Base.java:186
 msgid "The error message follows, however Arduino should run fine."
 msgstr "De seguida uma mensagem de erro, no entanto o Arduino deve funcionar corretamente."
 
-#: Base.java:217
+#: Base.java:221
 msgid "Problem Setting the Platform"
 msgstr "Problema ao configurar a Plataforma"
 
-#: Base.java:218
+#: Base.java:222
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
 msgstr "Ocorreu um erro desconhecido ao tentar carregar\n"
 "código específico para a plataforma do seu computador."
 
-#: Base.java:229
+#: Base.java:233
 msgid "Please install JDK 1.5 or later"
 msgstr "Por favor instale o JDK 1.5 ou posterior"
 
-#: Base.java:230
+#: Base.java:234
 msgid ""
 "Arduino requires a full JDK (not just a JRE)\n"
 "to run. Please install JDK 1.5 or later.\n"
@@ -54,11 +54,11 @@ msgstr "Arduino necessita um JDK completo (e não apenas um JRE)\n"
 "para executar. Por favor instale o JDK 1.5 ou posterior.\n"
 "Informação adicional pode ser encontrada na referência."
 
-#: Base.java:254
+#: Base.java:258
 msgid "Sketchbook folder disappeared"
 msgstr "A Pasta do Catálogo desapareceu"
 
-#: Base.java:255
+#: Base.java:259
 msgid ""
 "The sketchbook folder no longer exists.\n"
 "Arduino will switch to the default sketchbook\n"
@@ -70,53 +70,57 @@ msgstr "A pasta do catálogo já não existe..\n"
 "catálogo e criar uma nova pasta de catálogo se\n"
 "necessário. Arduino vai deixar de se referir a si mesmo na terceira pessoa."
 
-#: Base.java:529
+#: Base.java:533
 msgid "Time for a Break"
 msgstr "Tempo para uma pausa"
 
-#: Base.java:530
+#: Base.java:534
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr "Atingiu o limite diário de criação de nomes \n"
 "de forma automática. E que tal sair para um passeio em alternativa?"
 
-#: Base.java:534
+#: Base.java:538
 msgid "Sunshine"
 msgstr "Luz_do_sol"
 
-#: Base.java:535
+#: Base.java:539
 msgid "No really, time for some fresh air for you."
 msgstr "A sério, é hora de ir apanhar um pouco de ar puro."
 
-#: Base.java:630
+#: Base.java:634
 msgid "Open an Arduino sketch..."
 msgstr "Abrir um esboço Arduino..."
 
-#: Base.java:769
+#: Base.java:773
 msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
 msgstr "<html> <head> <style type=\\\"text/css\\\">b { font: 13pt \\\"Lucida Grande\\\" }p { font: 11pt \\\"Lucida Grande\\\"; margin-top: 8px }</style> </head><b>Tem a  certeza que quer Sair?</b><p>Ao fechar o último esboço aberto o Arduino irá terminar."
 
-#: Base.java:779 Editor.java:586
+#: Base.java:783 Editor.java:586
 msgid "Quit"
 msgstr "Sair"
 
-#: Base.java:900 Editor.java:494
+#: Base.java:904 Editor.java:494
 msgid "Open..."
 msgstr "Abrir..."
 
-#: Base.java:967
+#: Base.java:952
+msgid "Add Library..."
+msgstr ""
+
+#: Base.java:982
 msgid "Contributed"
 msgstr "Contribuíram"
 
-#: Base.java:1092
+#: Base.java:1107
 msgid "Sketch Does Not Exist"
 msgstr "O Esboço Não Existe"
 
-#: Base.java:1093
+#: Base.java:1108
 msgid ""
 "The selected sketch no longer exists.\n"
 "You may need to restart Arduino to update\n"
@@ -125,7 +129,7 @@ msgstr "O esboço escolhido já não existe.\n"
 "Podera ter que reinicializar o Arduino para atualizar\n"
 "o menu dos catálogos."
 
-#: Base.java:1122
+#: Base.java:1137
 #, java-format
 msgid ""
 "The sketch \"{0}\" cannot be used.\n"
@@ -139,18 +143,18 @@ msgstr "O esboço \"{0}\" não pode ser usado.\n"
 "Para eliminar esta mensagem, remova o esboço de\n"
 "{1}"
 
-#: Base.java:1129
+#: Base.java:1144
 msgid "Ignoring sketch with bad name"
 msgstr "Esboço com nome inválido ignorado."
 
-#: Base.java:1187 Base.java:1232 Base.java:1879 Editor.java:2154
+#: Base.java:1202 Base.java:1247 Base.java:1894 Editor.java:2154
 #: Editor.java:2165 Editor.java:2175 Editor.java:2193 Preferences.java:239
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
 #: Sketch.java:530 Sketch.java:547
 msgid "Error"
 msgstr "Erro"
 
-#: Base.java:1204
+#: Base.java:1219 Base.java:2421
 #, java-format
 msgid ""
 "The library \"{0}\" cannot be used.\n"
@@ -160,55 +164,55 @@ msgstr "A biblioteca \"{0}\" não pode ser usada.\n"
 "Os nomes de biblioteca apenas podem conter letras básicas e dígitos.\n"
 "(apenas ASCII sem espaços, e não podem começar por um digito)"
 
-#: Base.java:1209
+#: Base.java:1224
 msgid "Ignoring bad library name"
 msgstr "Biblioteca com nome inválido ignorada"
 
-#: Base.java:1438
+#: Base.java:1453
 msgid "Problem getting data folder"
 msgstr "Problema ao obter pasta de dados"
 
-#: Base.java:1439
+#: Base.java:1454
 msgid "Error getting the Arduino data folder."
 msgstr "Erro ao obter pasta de dados do Arduino."
 
-#: Base.java:1446
+#: Base.java:1461
 msgid "Settings issues"
 msgstr "Problemas de Configuração"
 
-#: Base.java:1447
+#: Base.java:1462
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
 msgstr "Arduino não pode executar porque lhe foi impossível\n"
 "criar uma pasta para armazenar as suas configurações."
 
-#: Base.java:1583
+#: Base.java:1598
 msgid ""
 "For information on installing libraries, see: http://arduino.cc/en/Guide/"
 "Libraries\n"
 msgstr ""
 
-#: Base.java:1620
+#: Base.java:1635
 msgid "You forgot your sketchbook"
 msgstr "Esqueceu o seu catálogo"
 
-#: Base.java:1621
+#: Base.java:1636
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr "Arduino não pode executar porque lhe foi impossível\n"
 "criar uma pasta para armazenar o seu catálogo."
 
-#: Base.java:1641
+#: Base.java:1656
 msgid "Select (or create new) folder for sketches..."
 msgstr "Selecione (ou crie uma nova) pasta para seus esboços..."
 
-#: Base.java:1665
+#: Base.java:1680
 msgid "Problem Opening URL"
 msgstr "Problema ao abrir URL"
 
-#: Base.java:1666
+#: Base.java:1681
 #, java-format
 msgid ""
 "Could not open the URL\n"
@@ -216,11 +220,11 @@ msgid ""
 msgstr "Não foi possível abrir o URL\n"
 "{0}"
 
-#: Base.java:1689
+#: Base.java:1704
 msgid "Problem Opening Folder"
 msgstr "Problema ao abrir a Pasta"
 
-#: Base.java:1690
+#: Base.java:1705
 #, java-format
 msgid ""
 "Could not open the folder\n"
@@ -228,70 +232,91 @@ msgid ""
 msgstr "Não foi possível abrir a pasta\n"
 "{0}"
 
-#: Base.java:1803
+#: Base.java:1818
 msgid "Guide_MacOSX.html"
 msgstr "Guide_MacOSX.html"
 
-#: Base.java:1805
+#: Base.java:1820
 msgid "Guide_Windows.html"
 msgstr "Guide_Windows.html"
 
-#: Base.java:1807
+#: Base.java:1822
 msgid "http://www.arduino.cc/playground/Learning/Linux"
 msgstr "http://www.arduino.cc/playground/Learning/Linux"
 
-#: Base.java:1812
+#: Base.java:1827
 msgid "index.html"
 msgstr "index.html"
 
-#: Base.java:1817
+#: Base.java:1832
 msgid "Guide_Environment.html"
 msgstr "Guide_Environment.html"
 
-#: Base.java:1822
+#: Base.java:1837
 msgid "environment"
 msgstr "ambiente"
 
-#: Base.java:1822
+#: Base.java:1837
 msgid "platforms.html"
 msgstr "platforms.html"
 
-#: Base.java:1827
+#: Base.java:1842
 msgid "Guide_Troubleshooting.html"
 msgstr "Guide_Troubleshooting.html"
 
-#: Base.java:1832
+#: Base.java:1847
 msgid "FAQ.html"
 msgstr "FAQ.html"
 
-#: Base.java:1844
+#: Base.java:1859
 msgid "Message"
 msgstr "Mensagem"
 
-#: Base.java:1860
+#: Base.java:1875
 msgid "Warning"
 msgstr "Alerta"
 
-#: Base.java:2214
+#: Base.java:2229
 #, java-format
 msgid "Could not remove old version of {0}"
 msgstr "Não foi possível remover a versão antiga de {0}"
 
-#: Base.java:2224
+#: Base.java:2239
 #, java-format
 msgid "Could not replace {0}"
 msgstr "Não foi possível substituir {0}"
 
-#: Base.java:2265 Base.java:2288
+#: Base.java:2280 Base.java:2303
 #, java-format
 msgid "Could not delete {0}"
 msgstr "Não foi possível apagar {0}"
 
-#: debug/AvrdudeUploader.java:98
+#: Base.java:2383
+msgid "Select a zip file or a folder containing the library you'd like to add"
+msgstr ""
+
+#: Base.java:2385
+msgid "ZIP files or folders"
+msgstr ""
+
+#: Base.java:2408
+msgid "Zip doesn't contain a library"
+msgstr ""
+
+#: Base.java:2432
+#, java-format
+msgid "A library named {0} already exists"
+msgstr ""
+
+#: Base.java:2441
+msgid "Library added to your libraries. Check \"Import library\" menu"
+msgstr ""
+
+#: debug/AvrdudeUploader.java:99
 msgid "Forcing reset using 1200bps open/close on port "
 msgstr ""
 
-#: debug/AvrdudeUploader.java:153
+#: debug/AvrdudeUploader.java:154
 msgid ""
 "Couldn’t find a Leonardo on the selected port. Check that you have the "
 "correct port selected.  If it is correct, try pressing the board's reset "
@@ -878,6 +903,34 @@ msgstr "Separador Anterior"
 #: EditorHeader.java:340
 msgid "Next Tab"
 msgstr "Separador Seguinte"
+
+#: EditorStatus.java:452
+msgid "Copy error"
+msgstr ""
+
+#: EditorStatus.java:452
+msgid "to clipboard"
+msgstr ""
+
+#: EditorStatus.java:463
+msgid "This report would have more information with"
+msgstr ""
+
+#: EditorStatus.java:464
+msgid "Show verbose output during compilation"
+msgstr ""
+
+#: EditorStatus.java:465
+msgid "enabled in File > Preferences."
+msgstr ""
+
+#: EditorStatus.java:467
+msgid "Arduino: "
+msgstr ""
+
+#: EditorStatus.java:468
+msgid "Board: "
+msgstr ""
 
 #: EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Verify"
