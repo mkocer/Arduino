@@ -44,7 +44,7 @@ static const uint8_t SCK  = 13;
 
 static const uint8_t SDA = 18;
 static const uint8_t SCL = 19;
-#define LED_BUILTIN 13
+#define LED_BUILTIN 9
 
 static const uint8_t A0 = 14;
 static const uint8_t A1 = 15;
@@ -230,7 +230,7 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 //
 // SERIAL_PORT_HARDWARE_OPEN  Hardware serial ports which are open for use.  Their RX & TX
 //                            pins are NOT connected to anything by default.
-#define SERIAL_PORT_MONITOR   Serial
-#define SERIAL_PORT_HARDWARE  Serial
+#define SERIAL_PORT_HARDWARE       Serial
+#define SERIAL_PORT_HARDWARE_OPEN  Serial
 
 #endif

@@ -179,6 +179,7 @@ public class Preferences {
   JCheckBox exportSeparateBox;
   JCheckBox verboseCompilationBox;
   JCheckBox verboseUploadBox;
+  JCheckBox displayLineNumbersBox;
   JCheckBox verifyUploadBox;
   JCheckBox externalEditorBox;
   JCheckBox memoryOverrideBox;
@@ -384,6 +385,15 @@ public class Preferences {
     box.setBounds(left, top, d.width, d.height);
     top += d.height + GUI_BETWEEN;
 
+	// [ ] Display line numbers
+    
+    displayLineNumbersBox = new JCheckBox(_("Display line numbers"));
+    pain.add(displayLineNumbersBox);
+    d = displayLineNumbersBox.getPreferredSize();
+    displayLineNumbersBox.setBounds(left, top, d.width + 10, d.height);
+    right = Math.max(right, left + d.width);
+    top += d.height + GUI_BETWEEN;
+	
     // [ ] Verify code after upload
     
     verifyUploadBox = new JCheckBox(_("Verify code after upload"));
@@ -573,6 +583,7 @@ public class Preferences {
     // put each of the settings into the table
     setBoolean("build.verbose", verboseCompilationBox.isSelected());
     setBoolean("upload.verbose", verboseUploadBox.isSelected());
+    setBoolean("editor.linenumbers", displayLineNumbersBox.isSelected());
     setBoolean("upload.verify", verifyUploadBox.isSelected());
     
 //    setBoolean("sketchbook.closing_last_window_quits",
@@ -636,6 +647,7 @@ public class Preferences {
     // set all settings entry boxes to their actual status
     verboseCompilationBox.setSelected(getBoolean("build.verbose"));
     verboseUploadBox.setSelected(getBoolean("upload.verbose"));
+    displayLineNumbersBox.setSelected(getBoolean("editor.linenumbers"));
     verifyUploadBox.setSelected(getBoolean("upload.verify"));
 
     //closingLastQuitsBox.
